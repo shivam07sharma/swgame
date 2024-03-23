@@ -1,0 +1,122 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+body{
+    background-color: black;
+}
+
+.bdy {
+    width: 100vw;
+    height: 80vmax;
+    background-color:
+        rgb(135, 139, 251);
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+    align-items: center;
+}
+
+nav {
+    height: 40px;
+    width: 100vw;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+
+#titl {
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    text-emphasis-color: white;
+
+}
+.cont{
+    margin: 10vmin auto;
+    padding: 10px 20px;
+    display: flex;
+    border: 0px solid rgb(7, 7, 7);
+    justify-content: space-evenly;
+    height: auto;
+    width: 89vmin;
+    align-items: center;
+    border-radius: 70px 0px;
+    background-color: rgb(124, 111, 248);
+    box-shadow: 4px 4px 23px black;
+
+
+}
+.options{
+    height: 23vmin;
+    width: 23vmin;
+    
+    border-radius: 500px;
+    border: 2px solid rgb(25, 24, 24);
+    overflow: hidden;
+    margin: 10px auto;
+    
+}
+.opt{
+    width: 100%;
+    height: 100%;
+
+}
+.result{
+
+    width: 80vmin;
+    font-size: 20px;
+    height: auto;
+    margin: 10px auto;
+    border: 2px solid rgb(3, 3, 3);
+    border-radius: 50px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+#decision{
+    width: 30vw;
+    height: auto;
+    padding: 17px;
+    font: 20px sans-serif;
+    border: 2px solid rgb(3, 3, 3);
+    font-weight: 400;
+    margin: 20px auto;
+
+}
+.options:hover{
+
+    transition: all 1s;
+    
+box-shadow: 0px 0px 90px rgb(249, 248, 248);
+}
+#vs{
+    font-size: 20px;
+    margin: 4px auto;
+
+}
+.score{
+    height: 30px;
+    width: 90vmin;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+}
+#ques{
+    box-shadow: 5px 5px 28px black;
+    width: 23vmin;
+    height: 23vmin;
+    border-radius: 500px;
+    overflow: hidden;
+}
+.cred{
+    font-size: 8px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    color: white;
+}
